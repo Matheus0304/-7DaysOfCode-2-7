@@ -1,0 +1,16 @@
+var namoe ='qual o seu nome?'
+var idade = 'quantos anos você tem?
+var linguagem = ' qual linguagem de programação você está estudando
+const Nome = prompt(nome)
+const Idade = prompt(idade)
+const Linguagem = prompt(linguagem)
+
+alert (`Olá ${Nome}, você tem ${Idade} anos e já está aprendendo ${Linguagem}!`)
+
+var pergunta = `Você gosta de estudar ${Linguagem}? Responda com o número 1 para SIM ou 2 para NÃO`
+var resposta = prompt(pergunta)
+
+if (resposta == 1){
+alert( Muito bom !Continue estudando e você terá muito sucesso.)
+} else if (resposta = 2){
+alert ( Ahh que pena ... Já tentou aprender outras linguagens?)
